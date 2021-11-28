@@ -101,6 +101,14 @@ public class StringMethods{
 		
         /*The Java String concat() method concatenates one string to the end of another string.*/
         System.out.println(myName.concat(" Hussain"));  //Returns Daoud Hussain
+		
+	
+	/*Java String isEmpty() Checks whether a string is empty or not*/
+        System.out.println(myName.isEmpty());   //Returns false
+
+		
+        /* Java String getBytes() Encodes the string into a sequences of bytes*/
+        System.out.println(myName.getBytes());  //Returns [B@5ca881b5
 
 
 	}
