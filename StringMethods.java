@@ -22,12 +22,11 @@ public class StringMethods{
         System.out.println(myName.toUpperCase());  //Returns DAOUD
 
 
-        /*The substring(int beginIndex, int endIndex) method of the String class. 
-        It returns a new string that is a substring of this string.*/
+        /*The substring(int beginIndex, int endIndex) method of the String class returns a new string that is a substring of this string.*/
         System.out.println(myName.substring(2));  //Return oud  , It'll return all the characters after 2 index
 
 
-        /*We can also used substring for a specific range*/
+        /*We can also used substring to find a specific range of characters in a string*/
         System.out.println(myName.substring(0,2));  //Return Da
 
 
@@ -36,14 +35,14 @@ public class StringMethods{
         System.out.println(myName.replace('a' , 'u'));  //Return Duoud
 
 
-        /*Following example replaces a character with another character */
+        /*Following example replaces at string with another string */
         System.out.println(myName.replace("aou" , "awoo"));  //Return Dawood
 
 
         /*Java String startsWith() method is used to check the prefix of string.
          It verifies if given string starts with argument string or not.
         You cannot pass a string in it. It always works with "D"
-        You cannot use 'D' */
+        You cannot use 'D', incase you'll get an error*/
         System.out.println(myName.startsWith("D"));  //Return true
 
 
@@ -55,7 +54,7 @@ public class StringMethods{
 
 
         /*The Java charAt() method returns a character at a specific 
-        index position in a string.charAt() returns a single character.
+        index position in a string.charAt(). It always returns a single character.
          It does not return a range of characters*/
         System.out.println(myName.charAt(3));  //Returns u
 
