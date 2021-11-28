@@ -10,7 +10,7 @@ public class StringMethods{
 
         String myName = "Daoud";
 
-        /*The length() returns the length of a string object i.e. the number of characters stored in an object*/
+        /*The length() method returns the length of a string object i.e. the number of characters stored in an object*/
         System.out.println(myName.length());  //Returns 5
 
 
