@@ -87,5 +87,22 @@ public class StringMethods{
          irrespective of the case (lower or upper) of the string. This method always returns a boolean value*/
         System.out.println(myName.equalsIgnoreCase("dAOuD"));  //Returns true
 
+		
+        /*The compareTo() method compares two strings lexicographically. The comparison is based on the
+         Unicode value of each character in the strings. A value less than 0 is returned if the string
+         is less than the other string (less characters) and a value greater than 0 if the 
+         string is greater than the other string (more characters).
+        */
+        System.out.println(myName.compareTo("Daoud"));  //Returns 0 as  the string is equal to the other string.
+
+		
+        /*It also works as same as in the case of compareTo() but it ignores the capital and lower case while comparing*/
+        System.out.println(myName.compareToIgnoreCase("dAOuD"));  //Returns 0 as  the string is equal to the other string.
+
+		
+        /*The Java String concat() method concatenates one string to the end of another string.*/
+        System.out.println(myName.concat(" Hussain"));  //Returns Daoud Hussain
+
+
 	}
 }
