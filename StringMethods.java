@@ -1,7 +1,7 @@
 import java.util.*;
 public class StringMethods{
 	public static void main(String[] args) {
-        //In case to take input from user, Uncomment the following line of code
+        //In case to take input from user, Uncomment the following lines of code
         /*
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a string: ");
