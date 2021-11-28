@@ -1,5 +1,5 @@
 # String-Methods-In-Java
-
-![download](https://user-images.githubusercontent.com/87219816/143773341-fd3d1f9f-e9c8-4d8e-9f47-bf74ddefbc3d.jpg)
+<img  alt="GIF" src="https://user-images.githubusercontent.com/87219816/143773495-f43d7226-9223-4a06-a215-9c9c74ee846a.jpg" width="1000" height="450" />
 
 ##
+
