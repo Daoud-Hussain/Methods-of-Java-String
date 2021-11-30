@@ -8,7 +8,7 @@ public class StringMethods{
         String myName = input.next();
         */
 
-        String myName = "Daoud";
+        String myName = "DaoudHussain";
 
         /*The length() method returns the length of a string object i.e. the number of characters stored in an object*/
         System.out.println(myName.length());  //Returns 5
