@@ -109,7 +109,6 @@ public class StringMethods{
 		
         /* Java String getBytes() Encodes the string into a sequences of bytes*/
         System.out.println(myName.getBytes());  //Returns [B@5ca881b5
-
-
+		
 	}
 }
